@@ -1,0 +1,337 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Client/1.0.0": {
+        "dependencies": {
+          "Shared": "1.0.0"
+        },
+        "runtime": {
+          "Client.dll": {}
+        }
+      },
+      "Grpc.AspNetCore.Server/2.30.0": {
+        "dependencies": {
+          "Grpc.Net.Common": "2.30.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Grpc.AspNetCore.Server.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.30.0.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.30.0": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.30.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Client/2.30.0": {
+        "dependencies": {
+          "Grpc.Net.Common": "2.30.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.1",
+          "System.Diagnostics.DiagnosticSource": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Net.Client.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.30.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Common/2.30.0": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.30.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Net.Common.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.30.0.0"
+          }
+        }
+      },
+      "MagicOnion/4.0.2": {
+        "dependencies": {
+          "MagicOnion.Abstractions": "4.0.2",
+          "MagicOnion.Client": "4.0.2",
+          "MagicOnion.Server": "4.0.2"
+        }
+      },
+      "MagicOnion.Abstractions/4.0.2": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.30.0",
+          "MessagePack": "2.2.60"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MagicOnion.Abstractions.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "MagicOnion.Client/4.0.2": {
+        "dependencies": {
+          "Grpc.Net.Client": "2.30.0",
+          "MagicOnion.Abstractions": "4.0.2",
+          "MagicOnion.Shared": "4.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MagicOnion.Client.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "MagicOnion.Server/4.0.2": {
+        "dependencies": {
+          "Grpc.AspNetCore.Server": "2.30.0",
+          "Grpc.Core.Api": "2.30.0",
+          "MagicOnion.Abstractions": "4.0.2",
+          "MagicOnion.Shared": "4.0.2"
+        },
+        "runtime": {
+          "lib/net5.0/MagicOnion.Server.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "MagicOnion.Shared/4.0.2": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.30.0",
+          "MagicOnion.Abstractions": "4.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MagicOnion.Shared.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "MessagePack/2.2.60": {
+        "dependencies": {
+          "MessagePack.Annotations": "2.2.60",
+          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3",
+          "System.Reflection.Emit": "4.6.0",
+          "System.Reflection.Emit.Lightweight": "4.6.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "System.Threading.Tasks.Extensions": "4.5.3"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/MessagePack.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.60.5078"
+          }
+        }
+      },
+      "MessagePack.Annotations/2.2.60": {
+        "runtime": {
+          "lib/netstandard2.0/MessagePack.Annotations.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.60.5078"
+          }
+        }
+      },
+      "MessagePackAnalyzer/2.2.60": {},
+      "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.1.1": {},
+      "System.Collections.Immutable/1.5.0": {},
+      "System.Diagnostics.DiagnosticSource/4.5.1": {},
+      "System.Memory/4.5.3": {},
+      "System.Reflection.Emit/4.6.0": {},
+      "System.Reflection.Emit.Lightweight/4.6.0": {},
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {},
+      "System.Threading.Tasks.Extensions/4.5.3": {},
+      "Shared/1.0.0": {
+        "dependencies": {
+          "MagicOnion": "4.0.2",
+          "MagicOnion.Abstractions": "4.0.2",
+          "MessagePack": "2.2.60",
+          "MessagePack.Annotations": "2.2.60",
+          "MessagePackAnalyzer": "2.2.60"
+        },
+        "runtime": {
+          "Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Grpc.AspNetCore.Server/2.30.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GlNV4/mzNMwGU4qbjlVAGugTloc2AGB+wuEZ99aTcf23VHTXMDy8gR1RKU027diUmNHMV10EEM3kKRyJvNbq6w==",
+      "path": "grpc.aspnetcore.server/2.30.0",
+      "hashPath": "grpc.aspnetcore.server.2.30.0.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.30.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-olr6WVb/aNp/2cAKhHl/b5IGTDjc0lCnT2tk/IY43wHix3+NIrF9gQr4tgXVbt7wDbf55+xDE/yicqa6ao/l2Q==",
+      "path": "grpc.core.api/2.30.0",
+      "hashPath": "grpc.core.api.2.30.0.nupkg.sha512"
+    },
+    "Grpc.Net.Client/2.30.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LfvnO3ahboj2V2perNryvExSrD5On89N1C7+K83kmLhoCHhNe/PURjcrg3o4wjOxfN9YjzB8RnTXn99Pw5RPQA==",
+      "path": "grpc.net.client/2.30.0",
+      "hashPath": "grpc.net.client.2.30.0.nupkg.sha512"
+    },
+    "Grpc.Net.Common/2.30.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WGEaQQ5dVMaEJPk6wGuiTZKxNpWG5xonjbzEldPHfy4rNuIk8XyX57hp2GfjqFqfeYjxBpwE7XMGJc9T6dnZ+Q==",
+      "path": "grpc.net.common/2.30.0",
+      "hashPath": "grpc.net.common.2.30.0.nupkg.sha512"
+    },
+    "MagicOnion/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u3F5ATpvLkPAw5/4sawLVGDx5f32v17GK2S2kYTsKUKQpe386yCZiyUp/STs40jlsUc4lBA3mr9dQ1goh91afw==",
+      "path": "magiconion/4.0.2",
+      "hashPath": "magiconion.4.0.2.nupkg.sha512"
+    },
+    "MagicOnion.Abstractions/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yRbJBE22E1YXz2U/DQerrXtZaQfeLrRvP8FsvzRs2K49nqGBIvitA5YMaYpfjzukvr/dCOXYd57FKzaWI1qyRw==",
+      "path": "magiconion.abstractions/4.0.2",
+      "hashPath": "magiconion.abstractions.4.0.2.nupkg.sha512"
+    },
+    "MagicOnion.Client/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IM3sTOWizfcsvQ/aSu46Yh/trIBCW5aRDWiSYurrfj+6w9Jvs+NdbFZyASujRJlKBtYrEmI4pqaiPnVsftvjxA==",
+      "path": "magiconion.client/4.0.2",
+      "hashPath": "magiconion.client.4.0.2.nupkg.sha512"
+    },
+    "MagicOnion.Server/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LlVfqJvLmZs8i5PPmblMB0JxYkHP1Sb8S0clwsD/LKYNYUMxgtBkcqsau/TwQOtDf869zcsioHHIGVg5h2dHXA==",
+      "path": "magiconion.server/4.0.2",
+      "hashPath": "magiconion.server.4.0.2.nupkg.sha512"
+    },
+    "MagicOnion.Shared/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qiy9CVa2aF45EtBuFZGyxTGFFDZuQhNXQ4zOIgKiVxq32v12ncx2mv1Df0009dfEEhL6oy8OfzirEybR4dWsNA==",
+      "path": "magiconion.shared/4.0.2",
+      "hashPath": "magiconion.shared.4.0.2.nupkg.sha512"
+    },
+    "MessagePack/2.2.60": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2JeMQe8GHoaflWWoBjblWG1djCTl3xoNRg8p/S+zIBRee91M98zz7j+27su9c5q/EzSSYx1QGZq7VZtuveRspg==",
+      "path": "messagepack/2.2.60",
+      "hashPath": "messagepack.2.2.60.nupkg.sha512"
+    },
+    "MessagePack.Annotations/2.2.60": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+abBMY8ehLvA8+ksdBH5BihOD5ifffU/U6sd1le1qITIRQDwEwb/A1zdSHbZwKZf7HHEIn7yNBM4EYLUYseJeQ==",
+      "path": "messagepack.annotations/2.2.60",
+      "hashPath": "messagepack.annotations.2.2.60.nupkg.sha512"
+    },
+    "MessagePackAnalyzer/2.2.60": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ufEoBJzbiqla4b1YuZOuIAe7UMHBmDMOqjFGGGikSNRfnU2/t2SOeh/2nCyfYuFdsZouD6u7ua2iXLy4W4Fdwg==",
+      "path": "messagepackanalyzer/2.2.60",
+      "hashPath": "messagepackanalyzer.2.2.60.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
+      "path": "microsoft.bcl.asyncinterfaces/1.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XRzK7ZF+O6FzdfWrlFTi1Rgj2080ZDsd46vzOjadHUB0Cz5kOvDG8vI7caa5YFrsHQpcfn0DxtjS4E46N4FZsA==",
+      "path": "microsoft.extensions.logging.abstractions/2.1.1",
+      "hashPath": "microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
+      "path": "system.collections.immutable/1.5.0",
+      "hashPath": "system.collections.immutable.1.5.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zCno/m44ymWhgLFh7tELDG9587q0l/EynPM0m4KgLaWQbz/TEKvNRX2YT5ip2qXW/uayifQ2ZqbnErsKJ4lYrQ==",
+      "path": "system.diagnostics.diagnosticsource/4.5.1",
+      "hashPath": "system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qAo4jyXtC9i71iElngX7P2r+zLaiHzxKwf66sc3X91tL5Ks6fnQ1vxL04o7ZSm3sYfLExySL7GN8aTpNYpU1qw==",
+      "path": "system.reflection.emit/4.6.0",
+      "hashPath": "system.reflection.emit.4.6.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j/V5HVvxvBQ7uubYD0PptQW2KGsi1Pc2kZ9yfwLixv3ADdjL/4M78KyC5e+ymW612DY8ZE4PFoZmWpoNmN2mqg==",
+      "path": "system.reflection.emit.lightweight/4.6.0",
+      "hashPath": "system.reflection.emit.lightweight.4.6.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+MvhNtcvIbqmhANyKu91jQnvIRVSTiaOiFNfKWwXGHG48YAb4I/TyH8spsySiPYla7gKal5ZnF3teJqZAximyQ==",
+      "path": "system.threading.tasks.extensions/4.5.3",
+      "hashPath": "system.threading.tasks.extensions.4.5.3.nupkg.sha512"
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
